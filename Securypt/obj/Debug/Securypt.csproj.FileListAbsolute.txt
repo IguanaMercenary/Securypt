@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\bin\Debug\Securypt.exe.config
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\bin\Debug\Securypt.exe
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\bin\Debug\Securypt.pdb
@@ -41,3 +42,27 @@ C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.Properties.Re
 C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.csproj.GenerateResource.Cache
 C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.exe
 C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.pdb
+=======
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\bin\Debug\Securypt.exe.config
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\bin\Debug\Securypt.exe
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\bin\Debug\Securypt.pdb
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.csprojResolveAssemblyReference.cache
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\MainWindow.g.cs
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\App.g.cs
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt_MarkupCompile.cache
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt_MarkupCompile.lref
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\MainWindow.baml
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.g.resources
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.Properties.Resources.resources
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.csproj.GenerateResource.Cache
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.csproj.CoreCompileInputs.cache
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.exe
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.pdb
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\LocalPage.g.cs
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\ServerPage.g.cs
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\TutorialPage.g.cs
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\LocalPage.baml
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\ServerPage.baml
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\TutorialPage.baml
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\App.baml
+>>>>>>> b2824f01adee20c126fc1eb04829afdb778c79c8

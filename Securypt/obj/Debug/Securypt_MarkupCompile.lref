@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\App.xaml;;
 FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\LocalPage.xaml;;
@@ -5,3 +6,12 @@ FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\MainWindow.xaml;;
 FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\ServerPage.xaml;;
 FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\TutorialPage.xaml;;
 
+=======
+﻿
+FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\App.xaml;;
+FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\LocalPage.xaml;;
+FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\MainWindow.xaml;;
+FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\ServerPage.xaml;;
+FD:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\TutorialPage.xaml;;
+
+>>>>>>> b2824f01adee20c126fc1eb04829afdb778c79c8
