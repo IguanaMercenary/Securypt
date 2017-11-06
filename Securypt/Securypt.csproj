@@ -63,6 +63,7 @@
     <Compile Include="TutorialPage.xaml.cs">
       <DependentUpon>TutorialPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Utility\CryptoHandler.cs" />
     <Page Include="LocalPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

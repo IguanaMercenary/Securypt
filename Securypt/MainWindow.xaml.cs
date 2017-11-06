@@ -22,107 +22,23 @@ namespace Securypt
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        private string RSAPublicKey;
-        private string RSAPrivateKey;
         private string AESSecretKey;
+		private string securyptKeyName = "Securypt";
 
-        public MainWindow()
+		public string textToEncrypt = "This text will now be encrypted.";
+		public string textDecrypted;
+
+		private CspParameters cspp;
+		private RSACryptoServiceProvider rsa;
+
+		public MainWindow()
         {
             InitializeComponent();
 
+            Utility.CryptoHandler crypto = new Utility.CryptoHandler();
+            crypto.initProgram();
+
             MainFrame.Navigate(new LocalPage());
-        }
-
-        /// <summary>
-        /// Generates random number suitable for key input
-        /// </summary>
-        private void genRndNumber()
-        {
-
-        }
-
-        /// <summary>
-        /// Generates RSA public and private key pair and saves them as .key files in 
-        /// default location
-        /// </summary>
-        private void generateKeys()
-        {
-
-        }
-
-        /// <summary>
-        /// Initializes the program by checking for or generating RSA keys, etc
-        /// </summary>
-        private void initProgram()
-        {
-            //if (RSA keys NOT found in default location)
-            //		generateRSAKeys()
-            //else return
-        }
-
-        /// <summary>
-        /// Checks the current files for size and compresses them into 1 archive
-        /// </summary>
-        private void archiveFiles()
-        {
-            //check if file is already archived
-            //if not, open archive file
-            //add files to archive and close file
-        }
-
-        /// <summary>
-        /// Encrypts the current archive with the current AES key
-        /// </summary>
-        private void encryptArchive()
-        {
-
-        }
-
-        /// <summary>
-        /// Decrypts the current archive with the current AES key
-        /// </summary>
-        private void decryptArchive()
-        {
-
-        }
-
-        /// <summary>
-        /// Encrypts the current AES key using the current RSA Public key
-        /// </summary>
-        private void encryptAESKey()
-        {
-
-        }
-
-        /// <summary>
-        /// Decrypts the current AES key using the current RSA Public key
-        /// </summary>
-        private void decryptAESKey()
-        {
-
-        }
-
-        public void testEncrypt()
-        {
-
-            string inputPath = @"c:\TestInputText\";
-            string outputPath = @"c:\TestEncryptedText\";
-
-            using (FileStream fileStream = new FileStream(inputPath, FileMode.Open))
-            {
-
-            }                        
-		}
-
-        public void testDecrypt()
-        {
-
-        }
-
-        private void generateRSASalt()
-        {
-            
         }
     }
 }
