@@ -12,6 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Security.Cryptography;
+using System.IO;
+using Microsoft.Win32; //for OpenFileDialog
+using Securypt.Utility;
 
 namespace Securypt
 {
@@ -20,8 +24,11 @@ namespace Securypt
     /// </summary>
     public partial class LocalPage : Page
     {
-        public LocalPage()
+        CryptoHandler crypto;
+
+        public LocalPage(CryptoHandler crypto)
         {
+            this.crypto = crypto;
             InitializeComponent();
         }
 
@@ -29,6 +36,16 @@ namespace Securypt
         {
             //since MainFrame isn't visible use NavigationService (also possible to use NavigationCommand in XAML)
             this.NavigationService.Navigate(new ServerPage());
+        }
+
+        private void Encrypt_Click(object sender, RoutedEventArgs e)
+        {
+            crypto.EncryptFile(CryptoHandler.EncrFolder);
+        }
+
+        private void Decrypt_Click(object sender, RoutedEventArgs e)
+        {
+            crypto.DecryptFile(CryptoHandler.DecrFolder);
         }
     }
 }

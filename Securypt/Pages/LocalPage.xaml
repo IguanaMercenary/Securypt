@@ -63,8 +63,8 @@
         </StackPanel>
 
         <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Grid.Row="3" Grid.Column="2" Grid.RowSpan="2">
-            <Button Content="Advanced" Margin="4,3" Padding="4" VerticalAlignment="Center"/>
-            <Button Content="Hints" Margin="4,3" Padding="4" VerticalAlignment="Center"/>
+            <Button Content="EncryptTest" Margin="4,3" Padding="4" VerticalAlignment="Center" Click="Encrypt_Click"/>
+            <Button Content="DecryptTest" Margin="4,3" Padding="4" VerticalAlignment="Center" Click="Decrypt_Click"/>
             <Button Content="Server" Margin="4,3" Padding="4" VerticalAlignment="Center" Click="ServerPage_Click"/>
         </StackPanel>
         

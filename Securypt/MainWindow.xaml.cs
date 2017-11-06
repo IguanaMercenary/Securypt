@@ -22,15 +22,6 @@ namespace Securypt
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string AESSecretKey;
-		private string securyptKeyName = "Securypt";
-
-		public string textToEncrypt = "This text will now be encrypted.";
-		public string textDecrypted;
-
-		private CspParameters cspp;
-		private RSACryptoServiceProvider rsa;
-
 		public MainWindow()
         {
             InitializeComponent();
@@ -38,18 +29,11 @@ namespace Securypt
             Utility.CryptoHandler crypto = new Utility.CryptoHandler();
             crypto.initProgram();
 
-            MainFrame.Navigate(new LocalPage());
+            MainFrame.Navigate(new LocalPage(crypto)); //MainFrame will contain the pages
         }
     }
 }
 
-
-
-
-
-//page navigation stuff
-
-//_mainFrame.Navigate(new Page1());
 /*
 _mainFrame.NavigationService.GoBack(); 
 _mainFrame.NavigationService.GoForward(); 

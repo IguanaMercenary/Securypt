@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\App.xaml
-4-235953636
+4-18078478
 
-13-293715035
+13618809334
 13738642453
-LocalPage.xaml;MainWindow.xaml;ServerPage.xaml;TutorialPage.xaml;
+Pages\LocalPage.xaml;MainWindow.xaml;Pages\ServerPage.xaml;Pages\TutorialPage.xaml;
 
-False
+True
 

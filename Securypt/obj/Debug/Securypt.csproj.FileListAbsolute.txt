@@ -13,12 +13,6 @@ D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.csproj.Genera
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.csproj.CoreCompileInputs.cache
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.exe
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.pdb
-D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\LocalPage.g.cs
-D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\ServerPage.g.cs
-D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\TutorialPage.g.cs
-D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\LocalPage.baml
-D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\ServerPage.baml
-D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\TutorialPage.baml
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\App.baml
 C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\bin\Debug\Securypt.exe.config
 C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\bin\Debug\Securypt.exe
@@ -41,3 +35,9 @@ C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.Properties.Re
 C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.csproj.GenerateResource.Cache
 C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.exe
 C:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Securypt.pdb
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\LocalPage.g.cs
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\ServerPage.g.cs
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\TutorialPage.g.cs
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\LocalPage.baml
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\ServerPage.baml
+D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\TutorialPage.baml
