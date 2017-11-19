@@ -41,3 +41,24 @@ D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\TutorialPage.g.c
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\LocalPage.baml
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\ServerPage.baml
 D:\Dropbox\BCIT\Visual Studio\Securypt\Securypt\obj\Debug\Pages\TutorialPage.baml
+C:\Users\Michael\Source\Repos\Securypt\Securypt\bin\Debug\Securypt.exe.config
+C:\Users\Michael\Source\Repos\Securypt\Securypt\bin\Debug\Securypt.exe
+C:\Users\Michael\Source\Repos\Securypt\Securypt\bin\Debug\Securypt.pdb
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Securypt.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Pages\LocalPage.g.cs
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\MainWindow.g.cs
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Pages\ServerPage.g.cs
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Pages\TutorialPage.g.cs
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\App.g.cs
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Securypt_MarkupCompile.cache
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Securypt_MarkupCompile.lref
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\App.baml
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Pages\LocalPage.baml
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\MainWindow.baml
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Pages\ServerPage.baml
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Pages\TutorialPage.baml
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Securypt.g.resources
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Securypt.Properties.Resources.resources
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Securypt.csproj.GenerateResource.Cache
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Securypt.exe
+C:\Users\Michael\Source\Repos\Securypt\Securypt\obj\Debug\Securypt.pdb

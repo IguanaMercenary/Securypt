@@ -47,5 +47,65 @@ namespace Securypt
         {
             crypto.DecryptFile(CryptoHandler.DecrFolder);
         }
+
+        public void Border(Border b) {
+            InitializeComponent();
+        }
+
+        /// <summary>
+        /// Adds drag and drop functionality to the border area of the page.
+        /// Author: Michael
+        /// Date: 2017-11-08
+        /// Based on: https://docs.microsoft.com/en-us/dotnet/framework/wpf/advanced/walkthrough-enabling-drag-and-drop-on-a-user-control
+        /// </summary>
+        /// <param name="e"></param>
+        protected override void OnMouseMove(MouseEventArgs e) {
+            base.OnMouseMove(e);
+            if (e.LeftButton == MouseButtonState.Pressed) {
+                // Package the data.
+                DataObject data = new DataObject();
+                data.SetData("Double", MyBorderedButton.Height);
+                data.SetData("Object", this);
+
+                // Inititate the drag-and-drop operation.
+                DragDrop.DoDragDrop(this, data, DragDropEffects.Copy | DragDropEffects.Move);
+            }
+
+
+        }
+
+        /// <summary>
+        /// 
+        /// Source: https://stackoverflow.com/questions/5662509/drag-and-drop-files-into-wpf
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BorderPanel_Drop(object sender, DragEventArgs e) {
+
+            if (e.Data.GetDataPresent(DataFormats.FileDrop)) {
+                // Note that you can have more than one file.
+                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+
+                MyBorderedButton.TextInput
+
+                // Assuming you have one file that you care about, pass it off to whatever
+                // handling code you have defined.
+                
+            }
+        }
+
+        protected override void OnGiveFeedback(GiveFeedbackEventArgs e) {
+            base.OnGiveFeedback(e);
+            // These Effects values are set in the drop target's
+            // DragOver event handler.
+            if (e.Effects.HasFlag(DragDropEffects.Copy)) {
+                Mouse.SetCursor(Cursors.Cross);
+            } else if (e.Effects.HasFlag(DragDropEffects.Move)) {
+                Mouse.SetCursor(Cursors.Pen);
+            } else {
+                Mouse.SetCursor(Cursors.No);
+            }
+            e.Handled = true;
+        }
     }
 }

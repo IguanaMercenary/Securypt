@@ -25,7 +25,7 @@
         
         <!-- Drag and Drop Interface -->
         <!-- https://stackoverflow.com/questions/14936002/dotted-border-around-a-button  -for dotted border around text -->
-        <Border x:Name="MyBorderedButton" BorderThickness="2" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="6">
+        <Border x:Name="MyBorderedButton" BorderThickness="2" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="6" AllowDrop="True" Drop="BorderPanel_Drop">
             <Border.BorderBrush>
                 <VisualBrush>
                     <VisualBrush.Visual>
